@@ -1,0 +1,24 @@
+{
+  "name": "mfrc522-detector",
+  "version": "0.0.1",
+  "description": "Module to check if a card is detected and returning the uid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mprattinger/mfrc522-detector.git"
+  },
+  "keywords": [
+    "mfrc522",
+    "NFC",
+    "RFID"
+  ],
+  "author": "MPrattinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mprattinger/mfrc522-detector/issues"
+  },
+  "homepage": "https://github.com/mprattinger/mfrc522-detector#readme"
+}
