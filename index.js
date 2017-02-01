@@ -8,10 +8,24 @@ class MFRC522 extends events.EventEmitter{
     }
 
     init(){
+        var that = this;
+        var mod = null;
+        if(os.platform() == "win32"){
+             mod = require("./winChecker");
+        }else if(os.platform() == "linux"){
+            mod = require("./linuxChecker");
+        }
+        var checker = new mod();
+        checker.init();
 
-    }
+        checker.checkCard();
 
-    watch(){
+        checker.on("cardDetected", function(uid){
+            that.emit("cardDetected", uid);
+        });
 
+        
     }
 }
+
+module.exports = MFRC522;

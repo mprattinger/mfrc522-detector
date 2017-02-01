@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/mprattinger/mfrc522-detector/issues"
   },
-  "homepage": "https://github.com/mprattinger/mfrc522-detector#readme"
+  "homepage": "https://github.com/mprattinger/mfrc522-detector#readme",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "q": "^1.4.1"
+  },
+  "linuxDependencys": {
+    "mfrc522-rpi": "^1.0.5"
+  }
 }
