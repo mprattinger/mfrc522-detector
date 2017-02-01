@@ -23,6 +23,7 @@
   "homepage": "https://github.com/mprattinger/mfrc522-detector#readme",
   "dependencies": {
     "chokidar": "^1.6.1",
+    "mfrc522-rpi": "^1.0.5",
     "q": "^1.4.1"
   },
   "linuxDependencys": {
